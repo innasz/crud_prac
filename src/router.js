@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     element: <Main />,
   },
   {
-    path: '/detail',
+    path: '/:postId',
     element: <Detail />,
   },
 ]);
